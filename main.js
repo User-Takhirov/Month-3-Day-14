@@ -11,7 +11,7 @@
 // };
 // console.log(x(arr));
 
-//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // function User() {
 //   this.name = "gofur";
@@ -64,3 +64,57 @@
 // console.log(x(arr));
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//
+// let a = prompt("son kiriting");
+// function x(son) {
+//   let sum = 0;
+//   while (son > 0) {
+//     sum += son % 10;
+//     son = parseInt(son / 10);
+//   }
+//   return sum;
+// }
+// console.log(x(a ));
+
+//
+
+// let arr = [12,15,3];
+// const x = (numbers) => {
+//   let count = 0;
+//   for (let i = 0; i < numbers; i++) {
+//     if (numbers[i] % 1 == 0 && numbers[i] % numbers[i] == 0) {
+//       count += numbers[i];
+//     }
+//   }
+//   return count;
+// };
+// console.log(x(arr));
+
+//
+//function x(son){
+// let count = 0;
+// for (let i = 1; i <= son; i++) {
+//   if (son % i == 0) {
+//     count++;
+//   }
+//   return count == 2;
+// }
+// console.log(x(6));
+
+//
+// function x(num) {
+//   let yigindi = 0;
+//   while (num > 0) {
+//     yigindi += num % 10;
+//     num = Math.floor(num / 10);
+//   }
+//   return yigindi;
+// }
+// function x2(callback) {
+//   let num = 201;
+//   console.log(num);
+//   let result = callback(num);
+//   console.log(result);
+// }
+// x2(x);
